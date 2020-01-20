@@ -26,7 +26,7 @@ public class Model extends Observable {
    public Model() {
       Command openServer = new OpenDataServerCommand();
       LinkedList<String> arg = new LinkedList();
-      arg.add("6401");
+      arg.add("5400");
       arg.add("10");
       openServer.doCommand(arg);
       this.setChanged();
